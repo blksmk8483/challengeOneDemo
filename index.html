@@ -11,9 +11,8 @@
 <body>
     <!-- Added header and nav tag/ moved the class="header" to the header tag-->
     <header class="header">
-        <nav>
             <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+            <nav>
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,17 +24,16 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
     </header>
-<!-- ??? I can leave these at div tags because it won't affect anything? Correct? -->
+    <!-- ??? I can leave these at div tags because it won't affect anything? Correct? -->
 
     <div class="hero"></div>
-    <div class="content">
+    <main class="content">
         <!-- added the id="search-engine-optimization" -->
         <!-- changed the div tags to a section tag -->
         <section id="search-engine-optimization" class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="folder with SEO" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
@@ -63,29 +61,29 @@
                 increase your lead generation.
             </p>
         </section>
-    </div>
+    </main>
 
-    <!-- added the "alt=" for the images -->
-    <div class="benefits">
-        <section class="benefit-lead">
+    <!-- added the "alt=" for the images make the descritpions more detailed-->
+    <aside class="benefits">
+        <section class="benefit-lead benefit-item">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="lead-generation-photo"/>
+            <img src="./assets/images/lead-generation.png" alt="lead-generation-photo" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly
                 to your website.
             </p>
         </section>
 
-        <section class="benefit-brand">
+        <section class="benefit-brand benefit-item">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="brand-awarness-photo"/>
+            <img src="./assets/images/brand-awareness.png" alt="brand-awarness-photo" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
         </section>
 
-        <section class="benefit-cost">
+        <section class="benefit-cost benefit-item">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="cost-management-photo" />
             <p>
@@ -93,7 +91,7 @@
                 need to advertise your page.
             </p>
         </section>
-    </div>
+    </aside>
 
     <!-- changed the div tag to a footer tag -->
     <footer class="footer">
